@@ -3,6 +3,6 @@
 echo
 echo "-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*"
 echo $1
-ncftpls -x "Rdgga" ftp://$1 | tee ./out/AR/$1.out
+ncftpls -x "Rdgga" ftp://$1 | tee ./out/$1.out
 echo "-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*"
 echo
